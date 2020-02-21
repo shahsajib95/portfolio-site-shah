@@ -1,0 +1,193 @@
+body{
+    font-family: 'Poppins' ,'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h3 {
+     margin: 0;
+}
+
+section {
+    padding: 50px;
+}
+
+.name-highlight{
+    color: #EC4C79;
+    font-weight: 900;
+}
+
+.content-section {
+    display: flex;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+
+.top-text {
+    flex-grow: 6;
+    margin: 11% 0 0 0;
+}
+
+.content-section img {
+    width: 45%;
+    flex-grow: 6;
+}
+
+.content-section h1 {
+    margin-top: 10px;
+}
+
+.decoration{
+    color: #A9A9A9;
+}
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC5094, #EC4B75);
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.link-button:hover{
+    background-image: linear-gradient(45deg, #F49D31, #FBCF33);
+}
+
+.biography {
+    background-image: url("images/biography-bg.png");
+    background-size: 100%;
+}
+
+.bio-text {
+    margin: 102px 0 0 102px;
+}
+
+.bio-section{
+    display: flex;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+
+.bio-section img {
+    width: 45%;
+}
+
+.bio-section h1 {
+    margin-top: 10px;
+}
+
+.latest-work{
+    text-align: center;
+}
+
+.latest-work img {
+    width: 28%;
+    margin: 72px 0 0 35px;
+    transition: transform .2s;
+}
+
+.latest-work img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.client{
+    text-align: center;
+}
+
+
+.client {
+    background-image: url("images/footer-bg.png");
+    background-size: 100%;
+    text-align: center;
+}
+
+.client h3 {
+    margin-top: 52px;
+}
+
+.message {
+    background-image: linear-gradient(45deg, #EC5094, #EC4B75);
+    margin: 74px 222px 0 222px;
+    padding: 42px 0;
+    border-radius: 5px;
+    color: white;
+    transition: .2s;
+
+}
+
+.message:hover {
+    background-image: linear-gradient(45deg, #FFCA1C, #FFA331);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.footer{
+    color: #A9A9A9;
+    text-align: center;
+}
+
+.footer i{
+    font-size: 19px;
+    padding: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.footer i:hover {
+    background-color: #F89714;
+    color: white;
+}
+
+.fa-facebook {
+    background-color:  #4267B2;
+    color:white ;
+    width: 15px;
+    height: 15px;
+    border-radius: 39px;
+    cursor: pointer;
+    
+}
+.fa-linkedin {
+    background-color: #0077B5;
+    color: white  ;
+    width: 15px;
+    height: 15px;
+    border-radius: 39px;
+  
+}
+
+.fa-twitter {
+    background-color: #1DA1F2;
+    color:  white;
+    width: 15px;
+    height: 15px;
+    border-radius: 39px;
+}
+
+.fa-youtube-play {
+    background-color: #FF0000;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 39px;
+    box-shadow: 10px ;
+}
